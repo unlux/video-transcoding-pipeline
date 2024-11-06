@@ -1,0 +1,22 @@
+{
+  "name": "sqs-comms-transcoding",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@aws-sdk/client-ecs": "^3.679.0",
+    "@aws-sdk/client-sqs": "^3.682.0",
+    "@types/aws-lambda": "^8.10.145",
+    "@types/aws-sdk": "^2.7.4",
+    "@types/dockerode": "^3.3.31",
+    "@types/fluent-ffmpeg": "^2.1.26",
+    "aws-lambda": "^1.0.7",
+    "dockerode": "^4.0.2",
+    "dotenv": "^16.4.5"
+  }
+}
