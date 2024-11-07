@@ -115,5 +115,3 @@ async function init() {
 }
 
 init().finally(() => process.exit(0));
-
-// comment for CI test
