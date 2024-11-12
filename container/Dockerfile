@@ -5,13 +5,11 @@ RUN apk upgrade
 RUN apk add --no-cache ffmpeg
 
 WORKDIR /app
- 
-
 
 COPY package.json .
 COPY package-lock.json .
 RUN npm install
 
 
-COPY index.js .
+COPY . .
 CMD ["npm", "start"]
